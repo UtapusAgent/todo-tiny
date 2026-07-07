@@ -1,6 +1,6 @@
 # TODO App
 
-Track small tasks without accounts.
+SQLite-backed tasks with priorities, due dates, and completion.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Add tasks
-- Toggle done
-- Delete tasks
-- Browser persistence
+- Task CRUD
+- Priority and due dates
+- Done/open filters
+- SQLite persistence
 
 ## Use Cases
 
-- Personal task list
-- Tiny demo CRUD app
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project
