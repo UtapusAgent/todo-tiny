@@ -16,9 +16,9 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Task CRUD
-- Priority and due dates
-- Done/open filters
+- Project-aware task manager
+- Priority and due date filters
+- Open/done workflow
 - SQLite persistence
 
 ## Use Cases
