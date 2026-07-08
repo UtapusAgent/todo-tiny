@@ -4,6 +4,10 @@ SQLite-backed tasks with priorities, due dates, and completion.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
+## Screenshot
+
+![App screenshot](docs/screenshot.png)
+
 ## Usage
 
 ```sh
